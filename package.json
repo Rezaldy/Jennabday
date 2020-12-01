@@ -14,10 +14,13 @@
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
     "quasar": "^1.0.0",
+    "vue-circular-count-down-timer": "^1.0.4",
     "vue-class-component": "^7.2.2",
+    "vue-countdown": "^1.0.4",
     "vue-page-transition": "^0.2.2",
     "vue-property-decorator": "^8.3.0",
-    "vue-scrollin": "^0.1.2"
+    "vue-scrollin": "^0.1.2",
+    "vue2-flip-countdown": "^0.11.1"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",

@@ -1,7 +1,8 @@
 <template>
   <q-page class="bg row items-center justify-end">
     <div class="holder q-gutter-y-md q-mr-xl q-pal-md">
-      <p>Busy calculating the deltas in his velocity</p>
+      <p class="text-center">Happy birthday dummy</p>
+      <p class="text-italic text-grey">The rest of the message was lost in mathematical calculation translation</p>
       <div class="q-pa-md text-center">
         <q-btn @click="confirm" class="glossy" rounded style="background: #f7b2b7; color: white" label="CLICK HERE AFTER READING" />
       </div>

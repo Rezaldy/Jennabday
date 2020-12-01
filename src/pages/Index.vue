@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly bg">
-    <div class="holder text-center">
+    <div v-if="new Date().setHours(0,0,0,0) >= new Date('2020-12-10 00:00:00')" class="holder text-center">
       <h2>
         Hey Jenna!
       </h2>
@@ -19,14 +19,18 @@
         </div>
       </q-linear-progress>
     </div>
+    <div v-else class="holder text-center">
+      <flip-countdown deadline="2020-12-10 00:00:00"></flip-countdown>
+    </div>
   </q-page>
 </template>
 
 <script lang="ts">
 import {Vue, Component} from 'vue-property-decorator';
+import FlipCountdown from 'vue2-flip-countdown'
 
 @Component({
-  components: {}
+  components: {FlipCountdown}
 })
 export default class PageIndex extends Vue {
   timer: NodeJS.Timeout | undefined = undefined;

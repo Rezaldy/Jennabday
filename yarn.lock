@@ -2864,6 +2864,11 @@ core-js-compat@^3.6.2, core-js-compat@^3.6.5:
     browserslist "^4.8.5"
     semver "7.0.0"
 
+core-js@^2.6.5:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+
 core-js@^3.6.5:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
@@ -9137,10 +9142,23 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+vue-circular-count-down-timer@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vue-circular-count-down-timer/-/vue-circular-count-down-timer-1.0.4.tgz#8886633e6020b74be576e59310d8e6e847aa5fef"
+  integrity sha512-qOk89O9SyYO3xaXcPEbZ1HhSZcLHkn2U97axlJyLh4alfc5dDYQrfXIJ77s45Z8d6vF4NVslJIpGO3Wln5RB2Q==
+  dependencies:
+    core-js "^2.6.5"
+    vue "^2.6.10"
+
 vue-class-component@^7.1.0, vue-class-component@^7.2.2:
   version "7.2.6"
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
   integrity sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w==
+
+vue-countdown@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vue-countdown/-/vue-countdown-1.0.4.tgz#cb2baa4a99644ba6ebb33a9b688cd4138fcddc11"
+  integrity sha1-yyuqSplkS6brszqbaIzUE4/N3BE=
 
 vue-eslint-parser@^7.0.0:
   version "7.1.1"
@@ -9227,7 +9245,14 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@2.6.12:
+vue2-flip-countdown@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/vue2-flip-countdown/-/vue2-flip-countdown-0.11.1.tgz#79068e4ba4217986441a1e51eff7f72950fe9edc"
+  integrity sha512-1NqlK/zRSOk/OYyUL6a/vjDuo1/nZEqCVtVgaq8BR+3mCgZo8S8wfqr/eW++2ywdXZaXnWq9h0/GoTDklrt9AA==
+  dependencies:
+    uuid "^3.3.2"
+
+vue@2.6.12, vue@^2.6.10:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
