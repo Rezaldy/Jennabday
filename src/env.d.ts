@@ -5,3 +5,5 @@ declare namespace NodeJS {
     VUE_ROUTER_BASE: string | undefined;
   }
 }
+
+declare module 'vue2-flip-countdown';

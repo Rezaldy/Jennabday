@@ -27,9 +27,10 @@
 
 <script lang="ts">
 import {Vue, Component} from 'vue-property-decorator';
-import FlipCountdown from 'vue2-flip-countdown'
+import FlipCountdown from 'vue2-flip-countdown';
 
 @Component({
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   components: {FlipCountdown}
 })
 export default class PageIndex extends Vue {
