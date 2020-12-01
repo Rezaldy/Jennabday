@@ -2,7 +2,7 @@
   <q-page class="bg row items-center justify-start">
     <div class="q-ml-lg holder q-gutter-y-md q-mr-xl q-pal-md">
       <h3 class="text-center">
-        HAI JENNAANANAANA
+        Hai Jennanananana
       </h3>
       <p>
         You've really been a blessing to me. I've often wondered where I would be if it weren't for having you to talk to.
