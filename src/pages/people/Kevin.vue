@@ -1,7 +1,14 @@
 <template>
-  <q-page class="bg row items-center justify-end">
+  <q-page class="bg column items-center justify-start">
     <div class="holder q-gutter-y-md q-mr-xl q-pal-md">
-      <p>REDACTED BECAUSE BANNED ON LEAGUE</p>
+      <p>
+        To Jenna, Happy Birthday short stuff. Everyday I grow more thankful for the friendship that we have and how
+        close we have come to be. Its been a gift to have such an amazing person to call my Best Friend and knowing
+        I can just ring ya at anytime and chat about whatever the fuck is going on if its ya big ass forehead or my
+        dumbass breaking into Epcot w/e life brings I know I have a friend for the rest of it in you. So on this joyous
+        occasion of celebrating ya you getting closer to 30 and joining the boomer world I wish you a happy birfday
+        and dont forget you just built differently 🤣
+      </p>
       <div class="q-pa-md text-center">
         <q-btn @click="confirm" class="glossy" rounded style="background: #f7b2b7; color: white" label="CLICK HERE AFTER READING" />
       </div>
