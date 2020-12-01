@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly bg">
-    <div v-if="new Date().setHours(0,0,0,0) >= new Date('2020-12-10 00:00:00')" class="holder text-center">
+    <div v-if="new Date().setHours(0,0,0,0) >= new Date('2020-12-01 00:00:00')" class="holder text-center">
       <h2>
         Hey Jenna!
       </h2>
