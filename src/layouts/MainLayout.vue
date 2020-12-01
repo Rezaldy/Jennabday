@@ -275,7 +275,7 @@ export default class MainLayout extends Vue {
 
 @font-face {
   font-family: 'Waltography';
-  src: url(~assets/fonts/Waltograph42.otf);
+  src: url(/fonts/Waltograph42.otf);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: 'OpenSans';
-  src: url(~assets/fonts/OpenSans-Light.ttf);
+  src: url(/fonts/OpenSans-Light.ttf);
 }
 
 * {
