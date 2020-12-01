@@ -55,8 +55,8 @@
               <img class="full-width" src="https://cdna.pcpartpicker.com/static/forever/images/product/6f63c51bf729ea9d12da08b83e11be22.1600.jpg"/>
               <h4 class="text-black">Corsair RMx (2018) 850 W 80+ Gold Certified Fully Modular ATX Power Supply</h4>
               <img class="full-width" src="https://images-na.ssl-images-amazon.com/images/I/51lUqysCuDL.jpg"/>
-              <h4 class="text-black">Corsair LL120 63 CFM 120 mm Fan (TWICE!)</h4>
-              <img class="full-width" src="https://cdna.pcpartpicker.com/static/forever/images/product/8f7cb28d220d09149a2c960d3253c780.1600.jpg"/>
+              <h4 class="text-black">Corsair QL Series, iCUE QL140 RGB, 140mm RGB LED PWM White Fan (TWICE!)</h4>
+              <img class="full-width" src="https://target.scene7.com/is/image/Target/GUEST_b5699689-afe3-4846-97ef-d903897acbaf?fmt=webp&wid=1400&qlt=80"/>
               <p><span class="text-italic">
                 Oh and.. Amy was in on this. That trip to London? Part of it all.
                 You were actually picking up part of your present.
@@ -257,6 +257,8 @@ export default class MainLayout extends Vue {
 </script>
 
 <style lang="scss">
+
+
 .lost {
   margin-left: 10px;
 
