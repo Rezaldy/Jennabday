@@ -1,16 +1,11 @@
 <template>
   <q-page class="row items-center justify-evenly bg">
-    <div v-if="new Date().setHours(0,0,0,0) >= new Date('2020-12-01 00:00:00')" class="holder text-center">
+    <div v-if="new Date().setHours(0,0,0,0) >= new Date('2021-01-05 00:00:00')" class="holder text-center">
       <h2>
         Hey Jenna!
       </h2>
       <p>
-        'Tis the season to be happy, it's your cake day! 🎂
-      </p>
-      <p>
-        We figured it'd be nice to give you a <i>piece of our mind</i>.<br>
-        Make sure you don't miss anything! Read through all of our messages and make sure all of the icons in the sidebar are filled in. <br>
-        Click the menu icon <q-icon name="menu"/> in the top left of this page to start!
+        WELCOME BAAAAAAAAAACK ♥
       </p>
 
       <q-linear-progress class="progress" stripe size="20px" :value="progress / 100">
@@ -20,7 +15,7 @@
       </q-linear-progress>
     </div>
     <div v-else class="holder text-center">
-      <flip-countdown deadline="2020-12-10 00:00:00"></flip-countdown>
+      <flip-countdown deadline="2021-01-05 00:00:00"></flip-countdown>
     </div>
   </q-page>
 </template>

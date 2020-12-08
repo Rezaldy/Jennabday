@@ -1,8 +1,8 @@
 {
-  "name": "celebrations",
+  "name": "jennareturn",
   "version": "0.0.1",
-  "description": "Celebrations app",
-  "productName": "Celebrations",
+  "description": "Jennareturn app",
+  "productName": "Jennareturn",
   "author": "Rizky",
   "private": true,
   "scripts": {

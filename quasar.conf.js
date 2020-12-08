@@ -129,9 +129,9 @@ module.exports = configure(function (ctx) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Celebrations',
-        short_name: 'Celebrations',
-        description: 'Celebrations app',
+        name: 'Jennareturn',
+        short_name: 'Jennareturn',
+        description: 'Jennareturn app',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -196,7 +196,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'celebrations'
+        appId: 'jennareturn'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

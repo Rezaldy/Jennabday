@@ -1,6 +1,6 @@
-# Celebrations (celebrations)
+# Jennareturn (jennareturn)
 
-Celebrations app
+Jennareturn app
 
 ## Install the dependencies
 ```bash
