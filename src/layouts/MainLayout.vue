@@ -68,16 +68,6 @@
     </q-dialog>
     <q-header elevated>
       <q-toolbar>
-        <q-btn
-          v-if="new Date().setHours(0,0,0,0) >= new Date('2021-01-05 00:00:00')"
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="leftDrawerOpen = !leftDrawerOpen"
-        />
-
         <q-toolbar-title
           v-if="new Date().setHours(0,0,0,0) >= new Date('2021-01-05 00:00:00')">
           JENNA IS COMING BACK
@@ -95,11 +85,6 @@
             YOU'Z A STAR, CLICK THE STAR!
           </div>
         </transition>
-        <q-linear-progress transition-show="fade" transition-hide="fade" v-else-if="progress < 100 && new Date().setHours(0,0,0,0) >= new Date('2021-01-05 00:00:00')" class="progress" stripe size="20px" :value="progress / 100" style="width:150px">
-          <div class="absolute-full flex flex-center">
-            <q-badge color="white" text-color="accent" :label="progress + '%'" />
-          </div>
-        </q-linear-progress>
         <div
           v-if="new Date().setHours(0,0,0,0) >= new Date('2021-01-05 00:00:00')"
           class="lost cursor-pointer" @click="lost('top')">I'm lost</div>

@@ -1,18 +1,12 @@
 <template>
   <q-page class="row items-center justify-evenly bg">
-    <div v-if="new Date().setHours(0,0,0,0) >= new Date('2021-01-05 00:00:00')" class="holder text-center">
+    <div v-if="new Date().setHours(0,0,0,0) >= new Date('2020-01-05 00:00:00')" class="holder text-center">
       <h2>
-        Hey Jenna!
+        JENNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!
       </h2>
       <p>
         WELCOME BAAAAAAAAAACK ♥
       </p>
-
-      <q-linear-progress class="progress" stripe size="20px" :value="progress / 100">
-        <div class="absolute-full flex flex-center">
-          <q-badge color="white" text-color="accent" :label="progress + '%'" />
-        </div>
-      </q-linear-progress>
     </div>
     <div v-else class="holder text-center">
       <flip-countdown deadline="2021-01-05 00:00:00"></flip-countdown>
